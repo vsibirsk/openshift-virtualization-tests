@@ -6,7 +6,6 @@ from ocp_resources.virtual_machine_instance_migration import VirtualMachineInsta
 
 from utilities.constants.timeouts import TIMEOUT_3MIN
 from utilities.constants.virt import MIGRATION_POLICY_VM_LABEL
-from utilities.jira import is_jira_open
 
 LOGGER = logging.getLogger(__name__)
 
